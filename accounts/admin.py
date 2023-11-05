@@ -12,3 +12,5 @@ class CustomUserAdmin(UserAdmin):
 
 
 admin.site.register(models.User, CustomUserAdmin)
+
+admin.site.register(models.UserProfile)
